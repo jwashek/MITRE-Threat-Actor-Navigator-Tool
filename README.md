@@ -1,6 +1,6 @@
 # MITRE ATT&CK Threat Actor Navigator Tool
 
-A command-line Python tool that allows you to search for threat actors tracked by [MITRE ATT&CK](https://attack.mitre.org/groups/), automatically fetches their ATT&CK Navigator layer, and displays their techniques grouped by tactic (e.g., Execution, Persistence, Lateral Movement).
+A command-line Python tool that allows you to search for threat actors tracked by [MITRE ATT&CK](https://attack.mitre.org/groups/), automatically fetches their ATT&CK Navigator information, and displays their techniques grouped by tactic (e.g., Execution, Persistence, Lateral Movement).
 
 ## 🚀 Features
 
@@ -27,11 +27,12 @@ pip install requests
 
 ### Usage:
 ```bash
-python attack_navigator_intel.py
+python threat_actor_navigator.py
 ```
 
 ### Example:
 ```bash
+python threat_actor_navigator.py
 Enter a Threat Actor name (e.g., FIN10): fin10
 
 ✔ Found Group ID: G0051
