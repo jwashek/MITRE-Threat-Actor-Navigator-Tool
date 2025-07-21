@@ -7,7 +7,7 @@ A command-line Python tool that allows you to search for threat actors tracked b
 - 🔍 Search any known MITRE threat actor by name or alias (e.g., `FIN10`, `APT1`, `TA505`)
 - 🧠 Automatically resolves and fetches the correct ATT&CK Group ID (e.g., `G0051`)
 - 📎 Generates a Navigator link to visualize the threat actor’s techniques in the ATT&CK Navigator
-- 🧰 Displays all techniques used by the actor, grouped by kill chain phase (tactic)
+- 🧰 Displays all techniques used by the actor, grouped by kill chain phase
 - 🧹 Optional filtering by tactic (e.g., only show `Execution` or `Persistence` TTPs)
 - 🗂 Organized and readable console output
 - ✅ Uses official MITRE STIX data from [github.com/mitre/cti](https://github.com/mitre/cti)
@@ -25,12 +25,12 @@ A command-line Python tool that allows you to search for threat actors tracked b
 pip install requests
 ```
 
-## Usage:
+### Usage:
 ```bash
 python attack_navigator_intel.py
 ```
 
-## Example:
+### Example:
 ```bash
 Enter a Threat Actor name (e.g., FIN10): fin10
 
@@ -53,7 +53,7 @@ https://mitre-attack.github.io/attack-navigator//#layerURL=https://attack.mitre.
 ...
 ```
 
-## Data Sources:
+## 📚 Data Sources:
 This project pulls live data from:
 
 * [MITRE ATT&CK STIX](https://github.com/mitre/cti/tree/master/enterprise-attack) (enterprise-attack.json)
