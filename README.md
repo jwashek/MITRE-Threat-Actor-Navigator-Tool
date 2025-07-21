@@ -59,4 +59,4 @@ This project pulls live data from:
 * [MITRE ATT&CK STIX](https://github.com/mitre/cti/tree/master/enterprise-attack) (enterprise-attack.json)
 * [MITRE ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/)
 
-> Note: This project is open-source under the MIT License. MITRE ATT&CK data is used under the terms of their [license](https://attack.mitre.org/resources/legal-and-branding/terms-of-use/).
+> Note: This project is open-source under no license. MITRE ATT&CK data is used under the terms of their [license](https://attack.mitre.org/resources/legal-and-branding/terms-of-use/).
