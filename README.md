@@ -1,4 +1,4 @@
-# MITRE ATT&CK Threat Actor Navigator Tool
+# TTPMap
 
 A command-line Python tool that allows you to search for threat actors tracked by [MITRE ATT&CK](https://attack.mitre.org/groups/), automatically fetches their ATT&CK Navigator information, and displays their techniques grouped by tactic (e.g., Execution, Persistence, Lateral Movement).
 
